@@ -1,12 +1,27 @@
-# React + Vite
+# 🧠 AI Resume Screener
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered resume screening tool that analyzes resumes and matches them against job descriptions using NLP.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
+- Frontend: [https://your-frontend-url.vercel.app](https://your-frontend-url.vercel.app)
+- Backend: [https://your-backend-url.onrender.com](https://your-backend-url.onrender.com)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Upload PDF resumes
+- Paste job description
+- Get instant matching scores using NLP
+- Fast & user-friendly interface (Vite + React + Tailwind)
+- Free tier deployment (Render + Vercel)
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **Frontend**: React, Vite, Tailwind CSS
+- **Backend**: Node.js, Express, `pdf-parse`, `natural`
+- **Deployment**: Vercel (frontend), Render (backend)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💡 How It Works
+1. Upload a PDF resume
+2. Paste the job description
+3. Click "Match"
+4. App uses NLP to calculate how well the resume fits the job
+
+## 📁 Folder Structure
