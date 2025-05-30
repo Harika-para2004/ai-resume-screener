@@ -23,5 +23,3 @@ An AI-powered resume screening tool that analyzes resumes and matches them again
 2. Paste the job description
 3. Click "Match"
 4. App uses NLP to calculate how well the resume fits the job
-
-## 📁 Folder Structure
